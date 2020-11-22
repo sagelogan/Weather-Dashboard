@@ -1,6 +1,6 @@
 # Weather-Dashboard
 UTA Homework #6
-[a link] ()
+* [deployed project](https://sagelogan.github.io/Weather-Dashboard/)
 ## Description
 This is a Webpage created to give a user a place to check current weather information of any desired location. 
 ## Table of Contents
