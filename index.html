@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="siteTitle">Weather Dashboard</h1>
+    </header>
+    <div class = "container">
+        <div class = "row">
+            <div class="searchContainer col-sm-4 col-md-4 col-lg-4">
+                <div>
+                    <h4>Search for a city:</h4>
+                    <input type="text" name="city" id="city"/>
+                    <button id="searchButton">Search</button>
+                </div>
+                <div>
+                    <h4>Recent Searches:</h4>
+                </div>
+               
+            </div>
+
+            <div class = "">
+
+                <div class="card" id="currentWeather">
+                    <h2 id="cityName"></h2>
+                    <h2 id="currentTemp"></h2>
+                    <h2 id="humidity"></h2>
+                    <h2 id="windSpeed"></h2>
+                </div>
+
+
+                <div class = "" id="fiveDayForecast">
+                    <div class = "d-flex" id="forecast" >
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="Scripts/script.js"></script>
+  </body>
+</html>

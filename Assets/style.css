@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    background-color: #201f1f;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+    width: 100vw;
+}
+
+.container{
+    width:100vw;
+    height: 100vh;
+    margin:0rem;
+}
+
+#siteTitle {
+    color: white;
+}
+
+.searchContainer {
+    padding-top: 1rem;
+    background-color: #ededed;
+    height: 50vh;
+    width:100vw;
+    border-radius: 5px;
+}
+
+#searchButton{
+    background-color: rgb(66, 164, 243);
+}
+
+.row{
+    width:100vw;
+}
+.card{
+width:100vw;
+}
+
+#currentWeather {
+    background-color: white;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    width: 63vw;
+    height: 25vh;
+}
+
+#fiveDayForecast {
+    background-color: white;
+    text-align: center;
+    width:63vw;
+    height:25vh;
+    border-radius: 5px;
+    border: black;
+    border-style: solid;
+    display: flex;
+}
+
+#forecast{
+    width:63vw;
+}
+#cityName {
+    margin-left: 1rem;
+}
+
+.currentWeather {
+    font-size: 16px;
+    margin-left: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+.divClasses {
+    border: black solid 2px;
+    width: 20%;
+    margin: 5px;
+    background-color: #0079fb;
+    border-radius: 5%;
+    color: #fff;
+}
+
